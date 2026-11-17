@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 LOCAL_DATA_FOLDER = Path("./data")
-DATA_PATH = LOCAL_DATA_FOLDER / "processed" / "september_2026.parquet"
+DATA_PATH = LOCAL_DATA_FOLDER / "manual" / "september_2026.parquet"
 
 BASELINE_YEAR = "2019"
 GROUP_COLUMNS = ["NTD ID", "Agency", "UZA Name"]
